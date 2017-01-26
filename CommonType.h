@@ -98,7 +98,9 @@ typedef struct {
 		BBSBrowseBoardOriginMode,
 		BBSBrowseBoardAuthorMode,
 	} subState;
-//	NSString *boardName;
+#ifdef ENABLE_RSS
+	NSString *boardName;
+#endif
 } BBSState;
 
 #ifdef __cplusplus
