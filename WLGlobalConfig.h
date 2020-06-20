@@ -16,16 +16,16 @@
 
 #define NUM_COLOR 10
 
-NSString *const WLRestoreConnectionKeyName;
-NSString *const WLCommandRHotkeyEnabledKeyName;
-NSString *const WLConfirmOnCloseEnabledKeyName;
-NSString *const WLSafePasteEnabledKeyName;
-NSString *const WLCoverFlowModeEnabledKeyName;
+extern NSString *const WLRestoreConnectionKeyName;
+extern NSString *const WLCommandRHotkeyEnabledKeyName;
+extern NSString *const WLConfirmOnCloseEnabledKeyName;
+extern NSString *const WLSafePasteEnabledKeyName;
+extern NSString *const WLCoverFlowModeEnabledKeyName;
 
-NSString *const WLCellWidthKeyName;
-NSString *const WLCellHeightKeyName;
-NSString *const WLChineseFontSizeKeyName;
-NSString *const WLEnglishFontSizeKeyName;
+extern NSString *const WLCellWidthKeyName;
+extern NSString *const WLCellHeightKeyName;
+extern NSString *const WLChineseFontSizeKeyName;
+extern NSString *const WLEnglishFontSizeKeyName;
 
 @interface WLGlobalConfig : NSObject {
     int _messageCount;

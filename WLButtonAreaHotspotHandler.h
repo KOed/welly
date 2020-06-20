@@ -10,19 +10,19 @@
 #import "WLMouseHotspotHandler.h"
 #import "WLTerminal.h"
 
-NSString * const WLButtonNameComposePost;
-NSString * const WLButtonNameDeletePost;
-NSString * const WLButtonNameShowNote;
-NSString * const WLButtonNameShowHelp;
-NSString * const WLButtonNameNormalToDigest;
-NSString * const WLButtonNameDigestToThread;
-NSString * const WLButtonNameThreadToMark;
-NSString * const WLButtonNameMarkToOrigin;
-NSString * const WLButtonNameOriginToNormal;
-NSString * const WLButtonNameSwitchDisplayAllBoards;
-NSString * const WLButtonNameSwitchSortBoards;
-NSString * const WLButtonNameSwitchBoardsNumber;
-NSString * const WLButtonNameDeleteBoard;
+extern NSString * const WLButtonNameComposePost;
+extern NSString * const WLButtonNameDeletePost;
+extern NSString * const WLButtonNameShowNote;
+extern NSString * const WLButtonNameShowHelp;
+extern NSString * const WLButtonNameNormalToDigest;
+extern NSString * const WLButtonNameDigestToThread;
+extern NSString * const WLButtonNameThreadToMark;
+extern NSString * const WLButtonNameMarkToOrigin;
+extern NSString * const WLButtonNameOriginToNormal;
+extern NSString * const WLButtonNameSwitchDisplayAllBoards;
+extern NSString * const WLButtonNameSwitchSortBoards;
+extern NSString * const WLButtonNameSwitchBoardsNumber;
+extern NSString * const WLButtonNameDeleteBoard;
 
 typedef struct {
 	int state;
