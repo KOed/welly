@@ -9,14 +9,11 @@
 #import <Cocoa/Cocoa.h>
 #import "WLMouseHotspotHandler.h"
 
-NSString *const WLCommandSequencePageUp;
-NSString *const WLCommandSequencePageDown;
-NSString *const WLCommandSequenceLeftArrow;
-NSString *const WLCommandSequenceHome;
-NSString *const WLCommandSequenceEnd;
-
-NSString *const WLToolTipPageUp;
-NSString *const WLToolTipPageDown;
+extern NSString *const WLCommandSequencePageUp;
+extern NSString *const WLCommandSequencePageDown;
+extern NSString *const WLCommandSequenceLeftArrow;
+extern NSString *const WLCommandSequenceHome;
+extern NSString *const WLCommandSequenceEnd;
 
 /*!
     @class

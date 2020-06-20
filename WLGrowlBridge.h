@@ -9,9 +9,9 @@
 #import <Cocoa/Cocoa.h>
 #import <Growl/GrowlApplicationBridge.h>
 
-NSString *const WLGrowlNotificationNameFileTransfer;
-NSString *const WLGrowlNotificationNameEXIFInformation;
-NSString *const WLGrowlNotificationNameNewMessageReceived;
+extern NSString *const WLGrowlNotificationNameFileTransfer;
+extern NSString *const WLGrowlNotificationNameEXIFInformation;
+extern NSString *const WLGrowlNotificationNameNewMessageReceived;
 
 #define kGrowlNotificationNameFileTransfer			NSLocalizedString(WLGrowlNotificationNameFileTransfer, @"Growl Notification Name")
 #define kGrowlNotificationNameEXIFInformation		NSLocalizedString(WLGrowlNotificationNameEXIFInformation, @"Growl Notification Name")
