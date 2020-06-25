@@ -15,16 +15,16 @@
 #import "WLMouseHotspotHandler.h"
 #import "CommonType.h"
 
-NSString *const WLMouseHandlerUserInfoName;
-NSString *const WLMouseRowUserInfoName;
-NSString *const WLMouseCommandSequenceUserInfoName;
-NSString *const WLMouseButtonTypeUserInfoName;
-NSString *const WLMouseButtonTextUserInfoName;
-NSString *const WLMouseCursorUserInfoName;
-NSString *const WLMouseAuthorUserInfoName;
-NSString *const WLURLUserInfoName;
-NSString *const WLRangeLocationUserInfoName;
-NSString *const WLRangeLengthUserInfoName;
+extern NSString *const WLMouseHandlerUserInfoName;
+extern NSString *const WLMouseRowUserInfoName;
+extern NSString *const WLMouseCommandSequenceUserInfoName;
+extern NSString *const WLMouseButtonTypeUserInfoName;
+extern NSString *const WLMouseButtonTextUserInfoName;
+extern NSString *const WLMouseCursorUserInfoName;
+extern NSString *const WLMouseAuthorUserInfoName;
+extern NSString *const WLURLUserInfoName;
+extern NSString *const WLRangeLocationUserInfoName;
+extern NSString *const WLRangeLengthUserInfoName;
 
 
 @class WLTerminalView, WLEffectView;
